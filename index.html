@@ -390,7 +390,17 @@ graph LR
 <li>後方参照: <code>(\w+)\s+\1</code> -&gt; <code>hello hello</code>にマッチ</li>
 <li>再帰: <code>\(([^()]*|(?R))*\)</code> -&gt; 入れ子になったカッコにマッチ (エンジンによる)</li>
 </ul>
-<p>これらは非常に便利ですが「もはや&quot;正規&quot;表現ではない」ということを知っておくと、挙動に悩んだときの助けになります。</p>
+<p>非常に便利ですが「もはや&quot;正規&quot;表現ではない」ということを知っておくと、挙動に悩んだときの助けになります。</p>
+<p>ちなみに：</p>
+<ul>
+<li>先読みは<strong>正規</strong>の範疇に入ります
+<ul>
+<li>非自明だけど、21世紀に証明 by 森畑先生</li>
+<li>PPL 2011推薦論文で提案</li>
+</ul>
+</li>
+<li>後読みも直感的には正規ぽいけど、こっちはあまり調べてない</li>
+</ul>
 <footer>© 2025 @kmizu</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-paginate="true" data-header="Nextbeat Tech Bar： 楽しい正規表現" data-footer="© 2025 @kmizu" data-theme="default" lang="C" data-marpit-pagination="33" style="--paginate:true;--header:Nextbeat Tech Bar： 楽しい正規表現;--footer:© 2025 @kmizu;--theme:default;" data-marpit-pagination-total="34" data-size="16:9">
