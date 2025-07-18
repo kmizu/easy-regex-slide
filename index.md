@@ -23,8 +23,8 @@ mermaid.initialize({ startOnLoad: true });
 
 ## 自己紹介
 
-- 名前: **kmizu**
-- Twitter: [@kmizu](https://x.com/kmizu)
+- 名前: 水島宏太（みずしまこうた）
+- X/Twitter: [@kmizu](https://x.com/kmizu)
 - 株式会社ネクストビートでソフトウェアエンジニアをしています
 - プログラミング言語、構文解析、正規表現などが好き
 
