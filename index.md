@@ -187,7 +187,7 @@ mermaid.initialize({ startOnLoad: true });
 
 これは **連接** と **反復** を使って次のように書けます。
 
-**`goog*le`**
+**`goo*gle`**
 (最初の `o` は必須で、その後に `o` が0回以上続く)
 
 ---
@@ -250,8 +250,6 @@ mermaid.initialize({ startOnLoad: true });
 - **状態 (State)** と **遷移 (Transition)** を持つ計算モデルです。
 - 入力文字列を1文字ずつ読み込み、現在の状態と読み込んだ文字に応じて、次の状態へ遷移します。
 - 文字列をすべて読み終えたときに **受理状態 (Accept State)** と呼ばれる特別な状態にいれば、「マッチ成功」となります。
-
-![bg right:40% contain](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Vending_machine_state_diagram.svg/1024px-Vending_machine_state_diagram.svg.png)
 
 ---
 
